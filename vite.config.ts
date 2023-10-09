@@ -22,7 +22,7 @@ export default defineConfig(({mode})  => {
       emptyOutDir: false,
       lib: {
         entry: './src/index.ts',
-        formats: ['es', 'cjs', 'umd'],
+        formats: ['es'],
         fileName: (format) => `constructables.${format}.js`,
         name: 'constructables',
       },

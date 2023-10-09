@@ -3,9 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "./src/index.ts",
-  "module": "./src/index.ts",
-  "types": "./src/index.ts",
+  "module": "./dist/constructables.es.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "vite build -w",
     "build": "tsc && vite build",
@@ -13,7 +12,7 @@
     "test": "vitest"
   },
   "dependencies": {
-    "solid-js": "^1.7.8"
+    "solid-js": "^1.7.11"
   },
   "devDependencies": {
     "@solidjs/testing-library": "^0.8.4",
